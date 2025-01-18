@@ -35,7 +35,7 @@ const Products = () => {
       <div className="container mt-4 d-flex flex-wrap justify-content-center">
         {product.map((item) => (
           <div className="m-3" key={item.id}>
-            <Card style={{ width: "18rem" }}>
+            <Card className="shadow" style={{ width: "18rem" }}>
               <Card.Img variant="top" className="pro-img" src={item.images[0]} />
               <Card.Body>
                 <Card.Title>{item.Title}</Card.Title>
